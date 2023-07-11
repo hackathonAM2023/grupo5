@@ -1,0 +1,30 @@
+Screen1 As screen:
+
+    Image1 As image:
+        Height: =1136
+        Image: =images
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
+    Image3 As image:
+        Height: =755
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =190
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(31, 153, 0, 1)
+        DisabledBorderColor: =RGBA(99, 139, 44, 1)
+        Font: =Font.'Lato Black'
+        Height: =316
+        Size: =80
+        Text: ="AGROTEC"
+        Width: =620
+        X: =20
+        Y: =609
+        ZIndex: =3
+

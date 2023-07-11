@@ -1,0 +1,148 @@
+usuarios As screen:
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(255, 237, 74, 1)
+        Fill: =RGBA(69, 53, 10, 1)
+        Height: =129
+        Width: =640
+        ZIndex: =1
+
+    Icon4 As icon.Search:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Icon: =Icon.Search
+        Width: =90
+        X: =530
+        Y: =20
+        ZIndex: =6
+
+    Icon5 As icon.Settings:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Icon: =Icon.Settings
+        Width: =107
+        Y: =20
+        ZIndex: =7
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =156
+        Width: =187
+        X: =389
+        Y: =317
+        ZIndex: =9
+
+    Rectangle2_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =156
+        Width: =187
+        X: =58
+        Y: =660
+        ZIndex: =10
+
+    Rectangle2_3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =156
+        Width: =187
+        X: =384
+        Y: =660
+        ZIndex: =11
+
+    Rectangle2_4 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =156
+        Width: =187
+        X: =67
+        Y: =322
+        ZIndex: =12
+
+    Image9 As image:
+        Height: =238
+        Image: =USUARIOO
+        Width: =164
+        X: =74
+        Y: =620
+        ZIndex: =13
+
+    Image10 As image:
+        Height: =166
+        Image: ='descarga (1)'
+        Width: =116
+        X: =424
+        Y: =317
+        ZIndex: =14
+
+    Image11 As image:
+        Height: =126
+        Image: =images
+        Width: =150
+        X: =81
+        Y: =332
+        ZIndex: =15
+
+    Image12 As image:
+        Height: =133
+        Image: ='User-yellow-icon'
+        Width: =210
+        X: =372
+        Y: =672
+        ZIndex: =16
+
+    TextInput9 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Panamer"
+        Font: =Font.'Lato Black'
+        Height: =72
+        Size: =25
+        Width: =196
+        X: =58
+        Y: =491
+        ZIndex: =17
+
+    TextInput9_1 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Roger Peets"
+        Font: =Font.'Lato Black'
+        Height: =72
+        Size: =25
+        Width: =196
+        X: =384
+        Y: =483
+        ZIndex: =18
+
+    TextInput9_2 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Luis Store"
+        Font: =Font.'Lato Black'
+        Height: =72
+        Size: =25
+        Width: =196
+        X: =54
+        Y: =833
+        ZIndex: =19
+
+    TextInput9_3 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Eco Store "
+        Font: =Font.'Lato Black'
+        Height: =72
+        Size: =25
+        Width: =196
+        X: =372
+        Y: =833
+        ZIndex: =20
+

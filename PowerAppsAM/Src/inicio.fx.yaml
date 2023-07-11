@@ -1,0 +1,44 @@
+inicio As screen:
+    Fill: =RGBA(35, 171, 17, 1)
+
+    Image4 As image:
+        Height: =655
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =600
+        X: =20
+        ZIndex: =1
+
+    Label3 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =70
+        Size: =50
+        Text: ="AGROTEC"
+        Width: =560
+        X: =40
+        Y: =453
+        ZIndex: =2
+
+    Button1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 0, 1)
+        Height: =81
+        Size: =24
+        Text: ="CHECK IN"
+        Width: =306
+        X: =180
+        Y: =667
+        ZIndex: =3
+
+    Button2 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 0, 1)
+        Height: =93
+        Size: =24
+        Text: ="LOG IN "
+        Width: =306
+        X: =180
+        Y: =834
+        ZIndex: =4
+

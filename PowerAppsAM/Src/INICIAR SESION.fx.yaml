@@ -1,0 +1,76 @@
+"'INICIAR SESION' As screen":
+    Fill: =RGBA(20, 199, 50, 1)
+
+    Label7 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =70
+        Size: =30
+        Text: ="LOG IN "
+        Width: =560
+        X: =40
+        Y: =276
+        ZIndex: =1
+
+    Image6 As image:
+        Height: =357
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =340
+        X: =16
+        ZIndex: =2
+
+    Label8 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =93
+        Size: =40
+        Text: ="AGROTEC"
+        Width: =426
+        X: =214
+        Y: =92
+        ZIndex: =3
+
+    Arrow2 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 0, 1)
+        Height: =78
+        Width: =64
+        X: =16
+        Y: =14
+        ZIndex: =4
+
+    TextInput6_1 As text:
+        BorderColor: =RGBA(255, 255, 0, 1)
+        BorderThickness: =5
+        Default: ="USER NAME"
+        Font: =Font.Arial
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =436
+        ZIndex: =5
+
+    TextInput6_2 As text:
+        BorderColor: =RGBA(255, 255, 0, 1)
+        BorderThickness: =5
+        Default: ="PASSWORD "
+        Font: =Font.Arial
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =558
+        ZIndex: =6
+
+    Button4_1 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 0, 1)
+        Height: =80
+        Size: =24
+        Text: ="LOG IN "
+        Width: =300
+        X: =170
+        Y: =768
+        ZIndex: =7
+
