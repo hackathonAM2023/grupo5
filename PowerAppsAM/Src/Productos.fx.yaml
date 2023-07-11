@@ -170,11 +170,19 @@ Productos As screen:
         Align: =Align.Center
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
-        Height: =68
-        Size: =15
-        Text: =" Perita Tomato LB 0.50"
-        Width: =130
+        Height: =82
+        Size: =19
+        Text: =" Perita  Tomato   LB 0.50$"
+        Width: =136
         X: =245
         Y: =570
         ZIndex: =26
+
+    Image17 As image:
+        Height: =150
+        Image: =descarga_2
+        Width: =130
+        X: =454
+        Y: =414
+        ZIndex: =27
 
