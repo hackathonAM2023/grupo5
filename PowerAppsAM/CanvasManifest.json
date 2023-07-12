@@ -131,7 +131,7 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
-    "Screen1",
+    "LOGO",
     "inicio",
     "REGISTRARSE",
     "INICIAR SESION",

@@ -50,18 +50,28 @@
     TextInput9_5 As text:
         Align: =Align.Center
         BorderThickness: =0
-        Default: ="Add products"
+        Default: ="ADD PRODUCTS"
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =82
         Size: =30
         Width: =375
-        Y: =322
+        Y: =340
         ZIndex: =7
 
     Icon1 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
         Icon: =Icon.Add
-        X: =375
-        Y: =322
+        X: =409
+        Y: =349
         ZIndex: =8
+
+    Circle1 As circle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 0)
+        X: =391
+        Y: =331
+        ZIndex: =9
 
