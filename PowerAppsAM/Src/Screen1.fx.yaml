@@ -2,7 +2,7 @@ Screen1 As screen:
 
     Image1 As image:
         Height: =1136
-        Image: =OIP
+        Image: =descarga
         ImagePosition: =ImagePosition.Fill
         OnSelect: =Navigate(inicio,ScreenTransition.Fade)
         Width: =640
