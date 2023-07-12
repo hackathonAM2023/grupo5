@@ -65,24 +65,3 @@
         Y: =942
         ZIndex: =10
 
-    Image7_1 As image:
-        Height: =161
-        Image: ='ddddd-removebg-preview (1)'
-        ImagePosition: =ImagePosition.Fill
-        Width: =212
-        X: =117
-        ZIndex: =11
-
-    Label2_1 As label:
-        Align: =Align.Center
-        Color: =RGBA(54, 176, 75, 1)
-        Font: =Font.'Lato Black'
-        FontWeight: =FontWeight.Bold
-        Height: =90
-        Size: =30
-        Text: ="AGROTEC"
-        Width: =292
-        X: =242
-        Y: =14
-        ZIndex: =12
-

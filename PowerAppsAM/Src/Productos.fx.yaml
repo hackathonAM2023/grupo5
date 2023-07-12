@@ -13,7 +13,7 @@ Productos As screen:
         BorderThickness: =8
         Fill: =RGBA(255, 255, 255, 1)
         Height: =156
-        Width: =187
+        Width: =167
         X: =24
         Y: =94
         ZIndex: =2
@@ -64,8 +64,8 @@ Productos As screen:
         Height: =163
         Image: =USUARIOO
         Width: =173
-        X: =38
-        Y: =94
+        X: =18
+        Y: =90
         ZIndex: =7
 
     Rectangle2_13 As rectangle:
@@ -256,4 +256,25 @@ Productos As screen:
         X: =454
         Y: =681
         ZIndex: =35
+
+    Image7_1 As image:
+        Height: =165
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =239
+        X: =123
+        ZIndex: =35
+
+    Label2_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(54, 176, 75, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =90
+        Size: =30
+        Text: ="AGROTEC"
+        Width: =292
+        X: =259
+        Y: =20
+        ZIndex: =36
 

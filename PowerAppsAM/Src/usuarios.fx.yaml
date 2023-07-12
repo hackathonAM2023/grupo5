@@ -22,6 +22,7 @@ usuarios As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =89
         Icon: =Icon.Settings
+        OnSelect: =Navigate(Configuracion,ScreenTransition.Fade)
         Width: =107
         Y: =20
         ZIndex: =7

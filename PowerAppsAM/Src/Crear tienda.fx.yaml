@@ -1,2 +1,94 @@
 "'Crear tienda' As screen":
 
+    Rectangle1_5 As rectangle:
+        BorderColor: =RGBA(255, 237, 74, 1)
+        Fill: =RGBA(69, 53, 10, 1)
+        Height: =149
+        Width: =640
+        ZIndex: =1
+
+    Image18_1 As image:
+        Height: =243
+        Image: =user
+        Width: =256
+        Y: =129
+        ZIndex: =3
+
+    TextInput12 As text:
+        Default: ="OPERATION PERMIT"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =712
+        ZIndex: =4
+
+    TextInput13 As text:
+        Default: ="UBICATION "
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =616
+        ZIndex: =5
+
+    TextInput14 As text:
+        Default: ="PHONE NUMBER "
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =516
+        ZIndex: =6
+
+    TextInput15 As text:
+        Default: ="USER NAME "
+        Font: =Font.Lato
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =413
+        ZIndex: =7
+
+    TextInput16 As text:
+        Default: ="POLICY AND CONDITIONS"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =823
+        ZIndex: =8
+
+    Button3 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =70
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
+        Size: =24
+        Text: ="DONE "
+        Width: =280
+        X: =156
+        Y: =970
+        ZIndex: =9
+
+    Arrow4 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =89
+        OnSelect: =Navigate(Configuracion,ScreenTransition.Fade)
+        Width: =80
+        X: =26
+        Y: =30
+        ZIndex: =11
+
+    Label18 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =70
+        Size: =30
+        Text: ="CREATE STORE "
+        Width: =560
+        X: =80
+        Y: =49
+        ZIndex: =12
+
