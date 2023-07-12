@@ -249,20 +249,20 @@ Productos As screen:
         Y: =809
         ZIndex: =34
 
-    Image18 As image:
-        Height: =192
-        Image: ='860-8606992_imagens-de-mandarina-en-png'
-        Width: =130
-        X: =454
-        Y: =681
-        ZIndex: =35
-
     Image7_1 As image:
         Height: =165
         Image: ='ddddd-removebg-preview (1)'
         ImagePosition: =ImagePosition.Fill
         Width: =239
         X: =123
+        ZIndex: =35
+
+    Image18 As image:
+        Height: =192
+        Image: ='860-8606992_imagens-de-mandarina-en-png'
+        Width: =130
+        X: =454
+        Y: =681
         ZIndex: =35
 
     Label2_1 As label:

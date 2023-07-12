@@ -73,7 +73,7 @@
     Button3 As button:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =70
-        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
+        OnSelect: =Navigate('Tienda del usuario',ScreenTransition.Fade)
         Size: =24
         Text: ="DONE "
         Width: =280
