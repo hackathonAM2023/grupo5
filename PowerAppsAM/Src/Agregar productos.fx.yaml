@@ -42,7 +42,7 @@
         Size: =21
         Width: =560
         X: =40
-        Y: =787
+        Y: =763
         ZIndex: =7
 
     TextInput1_3 As text:
@@ -51,7 +51,7 @@
         Size: =21
         Width: =560
         X: =40
-        Y: =661
+        Y: =637
         ZIndex: =9
 
     Button4_2 As button:
@@ -62,6 +62,6 @@
         Text: ="DONE"
         Width: =300
         X: =167
-        Y: =942
+        Y: =908
         ZIndex: =10
 

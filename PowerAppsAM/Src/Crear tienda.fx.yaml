@@ -15,7 +15,7 @@
         ZIndex: =3
 
     TextInput12 As text:
-        Default: ="OPERATION PERMIT"
+        Default: ="Operation Permit"
         Height: =70
         Size: =21
         Width: =560
@@ -24,7 +24,7 @@
         ZIndex: =4
 
     TextInput13 As text:
-        Default: ="UBICATION "
+        Default: ="Ubication"
         Height: =70
         Size: =21
         Width: =560
@@ -33,7 +33,7 @@
         ZIndex: =5
 
     TextInput14 As text:
-        Default: ="PHONE NUMBER "
+        Default: ="Phone Number "
         Height: =70
         Size: =21
         Width: =560
@@ -42,8 +42,8 @@
         ZIndex: =6
 
     TextInput15 As text:
-        Default: ="USER NAME "
-        Font: =Font.Lato
+        Default: ="User Name "
+        Font: =Font.Arial
         Height: =70
         Size: =21
         Width: =560
@@ -52,7 +52,7 @@
         ZIndex: =7
 
     TextInput16 As text:
-        Default: ="POLICY AND CONDITIONS"
+        Default: ="Policy and Conditions "
         Height: =70
         Size: =21
         Width: =560
