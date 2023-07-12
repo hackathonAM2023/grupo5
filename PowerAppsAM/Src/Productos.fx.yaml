@@ -61,11 +61,11 @@ Productos As screen:
         ZIndex: =6
 
     Image14 As image:
-        Height: =135
-        Image: ='descarga (1)'
-        Width: =129
-        X: =53
-        Y: =104
+        Height: =163
+        Image: =USUARIOO
+        Width: =173
+        X: =38
+        Y: =94
         ZIndex: =7
 
     Rectangle2_13 As rectangle:
