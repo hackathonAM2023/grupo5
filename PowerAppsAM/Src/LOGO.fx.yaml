@@ -1,12 +1,7 @@
 LOGO As screen:
-
-    Image1 As image:
-        Height: =1136
-        Image: =descarga
-        ImagePosition: =ImagePosition.Fill
-        OnSelect: =Navigate(inicio,ScreenTransition.Fade)
-        Width: =640
-        ZIndex: =1
+    BackgroundImage: =descarga
+    Fill: =RGBA(152, 208, 70, 1)
+    ImagePosition: =ImagePosition.Fill
 
     Image3 As image:
         Height: =755
