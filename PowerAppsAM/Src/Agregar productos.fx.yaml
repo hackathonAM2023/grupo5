@@ -39,7 +39,7 @@
     TextInput1_1 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="ADD AMOUNT"
+        Default: ="Add Amount"
         Height: =70
         Size: =21
         Width: =560
@@ -50,7 +50,7 @@
     TextInput1_3 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="ADD PRICE"
+        Default: ="Add Price"
         Height: =70
         Size: =21
         Width: =560

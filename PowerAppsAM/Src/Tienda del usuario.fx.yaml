@@ -28,7 +28,7 @@
     TextInput9_4 As text:
         Align: =Align.Center
         BorderThickness: =0
-        Default: ="Emilia vegetables"
+        Default: ="Emilia Vegetables"
         Font: =Font.'Lato Black'
         Height: =82
         Size: =35
