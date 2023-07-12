@@ -237,14 +237,6 @@ Productos As screen:
         Y: =818
         ZIndex: =32
 
-    Image13 As image:
-        Height: =121
-        Image: =R
-        Width: =134
-        X: =450
-        Y: =702
-        ZIndex: =33
-
     Label14 As label:
         Align: =Align.Center
         Font: =Font.'Lato Black'
@@ -256,4 +248,12 @@ Productos As screen:
         X: =420
         Y: =809
         ZIndex: =34
+
+    Image18 As image:
+        Height: =192
+        Image: ='860-8606992_imagens-de-mandarina-en-png'
+        Width: =130
+        X: =454
+        Y: =681
+        ZIndex: =35
 

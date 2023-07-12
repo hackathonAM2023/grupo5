@@ -71,6 +71,7 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Fill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate('Agregar productos',ScreenTransition.Fade)
         X: =391
         Y: =331
         ZIndex: =9
