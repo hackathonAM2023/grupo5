@@ -8,7 +8,7 @@ REGISTRARSE As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =30
-        Text: ="SIGN UP"
+        Text: ="Access"
         Width: =560
         X: =40
         Y: =236
@@ -17,7 +17,7 @@ REGISTRARSE As screen:
     TextInput2 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="USER NAME"
+        Default: ="User Name "
         Height: =70
         Size: =21
         Width: =560
@@ -28,7 +28,7 @@ REGISTRARSE As screen:
     TextInput3 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="EMAIL"
+        Default: ="Email"
         Height: =70
         Size: =21
         Width: =560
@@ -39,7 +39,7 @@ REGISTRARSE As screen:
     TextInput4 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="PASSWORD "
+        Default: ="Password"
         Height: =70
         Size: =21
         Width: =560
@@ -50,7 +50,7 @@ REGISTRARSE As screen:
     TextInput5 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="CONFIRM PASSWORD "
+        Default: ="Confirm Password"
         Height: =70
         Size: =21
         Width: =560
@@ -61,7 +61,7 @@ REGISTRARSE As screen:
     TextInput6 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
-        Default: ="FULL NAME "
+        Default: ="Full Name"
         Font: =Font.Arial
         Height: =70
         Size: =21
@@ -75,7 +75,7 @@ REGISTRARSE As screen:
         Height: =80
         OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
-        Text: ="SIGN UP "
+        Text: ="DONE"
         Width: =300
         X: =180
         Y: =922
@@ -93,7 +93,7 @@ REGISTRARSE As screen:
         Size: =40
         Text: ="AGROTEC"
         Width: =289
-        X: =311
+        X: =282
         Y: =74
         ZIndex: =9
 

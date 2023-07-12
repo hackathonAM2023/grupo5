@@ -43,7 +43,7 @@
     TextInput6_1 As text:
         BorderColor: =RGBA(255, 255, 0, 1)
         BorderThickness: =5
-        Default: ="USER NAME"
+        Default: ="User Name "
         Font: =Font.Arial
         Height: =70
         Size: =21
@@ -55,7 +55,7 @@
     TextInput6_2 As text:
         BorderColor: =RGBA(255, 255, 0, 1)
         BorderThickness: =5
-        Default: ="PASSWORD "
+        Default: ="Password"
         Font: =Font.Arial
         Height: =70
         Size: =21
@@ -70,7 +70,7 @@
         Height: =80
         OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
-        Text: ="LOG IN "
+        Text: ="DONE "
         Width: =300
         X: =170
         Y: =768

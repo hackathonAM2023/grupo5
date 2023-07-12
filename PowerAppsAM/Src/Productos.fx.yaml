@@ -51,7 +51,7 @@ Productos As screen:
     TextInput10 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =6
-        Default: ="COMMENTS"
+        Default: ="Comments"
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =146

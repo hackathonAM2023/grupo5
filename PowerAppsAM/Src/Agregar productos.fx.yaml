@@ -37,7 +37,7 @@
         ZIndex: =5
 
     TextInput1_1 As text:
-        Default: ="ADD AMOUNT"
+        Default: ="Add Amount"
         Height: =70
         Size: =21
         Width: =560
@@ -46,7 +46,7 @@
         ZIndex: =7
 
     TextInput1_3 As text:
-        Default: ="ADD PRICE"
+        Default: ="Add Price"
         Height: =70
         Size: =21
         Width: =560
