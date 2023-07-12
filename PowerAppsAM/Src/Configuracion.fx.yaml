@@ -26,6 +26,8 @@ Configuracion As screen:
         ZIndex: =3
 
     TextInput1 As text:
+        BorderColor: =RGBA(54, 176, 75, 1)
+        BorderThickness: =5
         Default: ="CHANGE PASSWORD"
         Height: =92
         Size: =21
@@ -35,15 +37,18 @@ Configuracion As screen:
         ZIndex: =5
 
     Label16 As label:
+        Align: =Align.Center
         Height: =80
-        Size: =21
+        Size: =30
         Text: ="Roger Peets"
         Width: =326
-        X: =184
-        Y: =378
+        X: =157
+        Y: =350
         ZIndex: =6
 
     TextInput7 As text:
+        BorderColor: =RGBA(54, 176, 75, 1)
+        BorderThickness: =5
         Default: ="CHANGE EMAIL"
         Height: =73
         Size: =21
@@ -53,6 +58,8 @@ Configuracion As screen:
         ZIndex: =7
 
     TextInput11 As text:
+        BorderColor: =RGBA(54, 176, 75, 1)
+        BorderThickness: =5
         Default: ="CHANGE ACCOUNT"
         Height: =66
         Size: =21
@@ -65,13 +72,43 @@ Configuracion As screen:
         Align: =Align.Left
         BorderThickness: =5
         Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =62
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =88
         OnSelect: =Navigate('Crear tienda',ScreenTransition.Fade)
         Size: =24
         Text: ="CREATE STORE"
-        Width: =519
-        X: =87
-        Y: =799
+        Width: =269
+        X: =175
+        Y: =815
         ZIndex: =10
+
+    Image18_2 As image:
+        Height: =232
+        Image: =user
+        Width: =276
+        X: =172
+        Y: =176
+        ZIndex: =11
+
+    Image7_2 As image:
+        Height: =165
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =239
+        X: =130
+        Y: =11
+        ZIndex: =12
+
+    Label2_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(54, 176, 75, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =96
+        Size: =30
+        Text: ="AGROTEC"
+        Width: =332
+        X: =278
+        Y: =16
+        ZIndex: =13
 
