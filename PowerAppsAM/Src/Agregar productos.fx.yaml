@@ -7,3 +7,61 @@
         Width: =640
         ZIndex: =1
 
+    Arrow3_2 As arrow.backArrow:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
+        Width: =66
+        X: =35
+        Y: =24
+        ZIndex: =2
+
+    Rectangle2_19 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =8
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =358
+        Width: =433
+        X: =101
+        Y: =94
+        ZIndex: =3
+
+    Icon3 As icon.Camera:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =160
+        Icon: =Icon.Camera
+        Width: =208
+        X: =216
+        Y: =193
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: ="ADD AMOUNT"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =787
+        ZIndex: =7
+
+    TextInput1_3 As text:
+        Default: ="ADD PRICE"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =661
+        ZIndex: =9
+
+    Button4_2 As button:
+        Fill: =RGBA(68, 163, 13, 1)
+        Height: =80
+        OnSelect: =Navigate('Tienda del usuario',ScreenTransition.Fade)
+        Size: =24
+        Text: ="DONE"
+        Width: =300
+        X: =167
+        Y: =942
+        ZIndex: =10
+
