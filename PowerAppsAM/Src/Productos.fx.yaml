@@ -32,9 +32,9 @@ Productos As screen:
     Arrow3 As arrow.backArrow:
         BorderColor: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =80
+        Height: =70
         OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
-        Width: =70
+        Width: =66
         X: =24
         Y: =24
         ZIndex: =4
@@ -136,7 +136,7 @@ Productos As screen:
         Text: ="Roger Peets"
         Width: =340
         X: =231
-        Y: =183
+        Y: =165
         ZIndex: =22
 
     Image15 As image:

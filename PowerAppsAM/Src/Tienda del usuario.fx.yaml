@@ -7,3 +7,61 @@
         Width: =640
         ZIndex: =1
 
+    Rectangle2_6 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =8
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =160
+        Width: =187
+        X: =35
+        Y: =94
+        ZIndex: =3
+
+    Image9_1 As image:
+        Height: =298
+        Image: =USUARIOO
+        Width: =188
+        X: =34
+        Y: =24
+        ZIndex: =4
+
+    TextInput9_4 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Emilia vegetables"
+        Font: =Font.'Lato Black'
+        Height: =82
+        Size: =35
+        Width: =398
+        X: =242
+        Y: =172
+        ZIndex: =5
+
+    Arrow3_1 As arrow.backArrow:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
+        Width: =66
+        X: =35
+        Y: =24
+        ZIndex: =6
+
+    TextInput9_5 As text:
+        Align: =Align.Center
+        BorderThickness: =0
+        Default: ="Add products"
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        Size: =30
+        Width: =375
+        Y: =322
+        ZIndex: =7
+
+    Icon1 As icon.Add:
+        Icon: =Icon.Add
+        X: =375
+        Y: =322
+        ZIndex: =8
+
