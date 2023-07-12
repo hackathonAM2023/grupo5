@@ -73,6 +73,7 @@ REGISTRARSE As screen:
     Button4 As button:
         Fill: =RGBA(68, 163, 13, 1)
         Height: =80
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
         Text: ="SIGN UP "
         Width: =300
@@ -99,6 +100,7 @@ REGISTRARSE As screen:
     Arrow1 As arrow.backArrow:
         Fill: =RGBA(54, 176, 75, 1)
         Height: =73
+        OnSelect: =Navigate(inicio,ScreenTransition.Fade)
         Width: =60
         X: =14
         Y: =16

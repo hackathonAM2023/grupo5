@@ -32,7 +32,8 @@ Productos As screen:
     Arrow3 As arrow.backArrow:
         BorderColor: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =56
+        Height: =80
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Width: =70
         X: =24
         Y: =24
@@ -185,4 +186,74 @@ Productos As screen:
         X: =454
         Y: =414
         ZIndex: =27
+
+    Label5 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =66
+        Size: =21
+        Text: ="onion  LB  0.75"
+        Width: =111
+        X: =460
+        Y: =572
+        ZIndex: =28
+
+    Image8 As image:
+        Height: =154
+        Image: ='OIP (1)'
+        Width: =144
+        X: =38
+        Y: =678
+        ZIndex: =29
+
+    Label9 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =112
+        Size: =21
+        Text: ="orange 5x1.00$"
+        Width: =182
+        X: =12
+        Y: =818
+        ZIndex: =30
+
+    Image11 As image:
+        Height: =108
+        Image: ='transparent-strawberry-download-strawberry-png-image-fruits-png-png-ima5e5a8993ccce17.3696195215829917638389'
+        Width: =174
+        X: =231
+        Y: =702
+        ZIndex: =31
+
+    Label10 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =135
+        Size: =21
+        Text: ="Strawberries 5.00$"
+        Width: =225
+        X: =197
+        Y: =818
+        ZIndex: =32
+
+    Image13 As image:
+        Height: =121
+        Image: =R
+        Width: =134
+        X: =450
+        Y: =702
+        ZIndex: =33
+
+    Label14 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =130
+        Size: =21
+        Text: ="Tangerines  5x1.00$"
+        Width: =191
+        X: =420
+        Y: =809
+        ZIndex: =34
 

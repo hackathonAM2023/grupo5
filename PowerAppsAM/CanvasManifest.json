@@ -94,7 +94,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -113,7 +113,7 @@
     "Id": "d772c7f9-15bb-4dbc-a1ca-c2c9362f797c",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "AGROTEC",
     "OriginatingVersion": "1.333",
     "ParserErrorCount": 0,

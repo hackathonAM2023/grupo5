@@ -34,6 +34,7 @@
     Arrow2 As arrow.backArrow:
         Fill: =RGBA(255, 255, 0, 1)
         Height: =78
+        OnSelect: =Navigate(inicio,ScreenTransition.Fade)
         Width: =64
         X: =16
         Y: =14
@@ -67,6 +68,7 @@
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(255, 255, 0, 1)
         Height: =80
+        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
         Text: ="LOG IN "
         Width: =300

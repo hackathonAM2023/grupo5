@@ -77,18 +77,11 @@ usuarios As screen:
     Image10 As image:
         Height: =166
         Image: ='descarga (1)'
+        OnSelect: =Navigate(Productos,ScreenTransition.Fade)
         Width: =116
         X: =424
         Y: =317
         ZIndex: =14
-
-    Image11 As image:
-        Height: =126
-        Image: =images
-        Width: =150
-        X: =81
-        Y: =332
-        ZIndex: =15
 
     Image12 As image:
         Height: =133
@@ -116,6 +109,7 @@ usuarios As screen:
         Default: ="Roger Peets"
         Font: =Font.'Lato Black'
         Height: =72
+        OnSelect: =Navigate(Productos,ScreenTransition.Fade)
         Size: =25
         Width: =196
         X: =384
@@ -145,4 +139,33 @@ usuarios As screen:
         X: =372
         Y: =833
         ZIndex: =20
+
+    Image2 As image:
+        Height: =116
+        Image: ='user-blue_25325'
+        Width: =214
+        X: =45
+        Y: =342
+        ZIndex: =21
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(54, 176, 75, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =90
+        Size: =30
+        Text: ="AGROTEC"
+        Width: =292
+        X: =254
+        Y: =20
+        ZIndex: =22
+
+    Image7 As image:
+        Height: =185
+        Image: ='ddddd-removebg-preview (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =263
+        X: =96
+        ZIndex: =23
 
