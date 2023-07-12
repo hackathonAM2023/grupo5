@@ -24,7 +24,7 @@
         Height: =358
         Width: =433
         X: =101
-        Y: =94
+        Y: =114
         ZIndex: =3
 
     Icon3 As icon.Camera:
@@ -32,8 +32,8 @@
         Height: =160
         Icon: =Icon.Camera
         Width: =208
-        X: =216
-        Y: =193
+        X: =213
+        Y: =213
         ZIndex: =5
 
     TextInput1_1 As text:

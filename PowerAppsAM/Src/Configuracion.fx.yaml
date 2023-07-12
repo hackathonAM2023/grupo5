@@ -25,14 +25,6 @@ Configuracion As screen:
         Y: =129
         ZIndex: =3
 
-    Image18 As image:
-        Height: =243
-        Image: =user
-        Width: =256
-        X: =136
-        Y: =162
-        ZIndex: =4
-
     TextInput1 As text:
         Default: ="CHANGE PASSWORD"
         Height: =92
