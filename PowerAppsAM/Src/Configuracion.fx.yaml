@@ -1,2 +1,72 @@
 Configuracion As screen:
 
+    Rectangle1_4 As rectangle:
+        BorderColor: =RGBA(255, 237, 74, 1)
+        Fill: =RGBA(69, 53, 10, 1)
+        Height: =129
+        Width: =640
+        ZIndex: =1
+
+    Arrow1_1 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =79
+        OnSelect: =Navigate(inicio,ScreenTransition.Fade)
+        Width: =86
+        X: =14
+        Y: =16
+        ZIndex: =2
+
+    Label15 As label:
+        Height: =80
+        Size: =29
+        Text: ="Setting"
+        Width: =260
+        X: =33
+        Y: =129
+        ZIndex: =3
+
+    TextInput1 As text:
+        Default: ="CHANGE PASSWORD"
+        Height: =92
+        Size: =21
+        Width: =542
+        X: =74
+        Y: =478
+        ZIndex: =5
+
+    Label16 As label:
+        Height: =80
+        Size: =21
+        Text: ="Roger Peets"
+        Width: =326
+        X: =184
+        Y: =378
+        ZIndex: =6
+
+    TextInput7 As text:
+        Default: ="CHANGE EMAIL"
+        Height: =73
+        Size: =21
+        Width: =542
+        X: =74
+        Y: =587
+        ZIndex: =7
+
+    TextInput8 As text:
+        Default: ="CREATE STORE"
+        Height: =76
+        Size: =21
+        Width: =539
+        X: =77
+        Y: =683
+        ZIndex: =8
+
+    TextInput11 As text:
+        Default: ="CHANGE ACCOUNT"
+        Height: =66
+        Size: =21
+        Width: =536
+        X: =80
+        Y: =786
+        ZIndex: =9
+

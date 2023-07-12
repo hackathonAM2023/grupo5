@@ -36,15 +36,6 @@
         Y: =213
         ZIndex: =5
 
-    TextInput1 As text:
-        Default: ="ADD NAME"
-        Height: =70
-        Size: =21
-        Width: =560
-        X: =40
-        Y: =535
-        ZIndex: =6
-
     TextInput1_1 As text:
         Default: ="ADD AMOUNT"
         Height: =70
