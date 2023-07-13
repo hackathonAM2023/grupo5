@@ -7,20 +7,11 @@ Configuracion As screen:
         Width: =640
         ZIndex: =1
 
-    Arrow1_1 As arrow.backArrow:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =79
-        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
-        Width: =86
-        X: =14
-        Y: =16
-        ZIndex: =2
-
     Label15 As label:
-        Height: =80
-        Size: =29
+        Height: =100
+        Size: =30
         Text: ="Setting"
-        Width: =260
+        Width: =245
         X: =33
         Y: =129
         ZIndex: =3
@@ -29,31 +20,31 @@ Configuracion As screen:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
         Default: ="Change Password"
-        Height: =92
+        Height: =111
         Size: =21
-        Width: =542
-        X: =74
-        Y: =478
+        Width: =539
+        X: =71
+        Y: =462
         ZIndex: =5
 
     Label16 As label:
         Align: =Align.Center
         Height: =80
         Size: =30
-        Text: ="Roger Peets"
+        Text: ="Argel Martinez"
         Width: =326
-        X: =157
-        Y: =350
+        X: =179
+        Y: =358
         ZIndex: =6
 
     TextInput7 As text:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
         Default: ="Change Email"
-        Height: =73
+        Height: =93
         Size: =21
-        Width: =542
-        X: =74
+        Width: =539
+        X: =71
         Y: =587
         ZIndex: =7
 
@@ -61,33 +52,19 @@ Configuracion As screen:
         BorderColor: =RGBA(54, 176, 75, 1)
         BorderThickness: =5
         Default: ="Change Account"
-        Height: =66
+        Height: =97
         Size: =21
-        Width: =536
-        X: =74
-        Y: =686
+        Width: =539
+        X: =71
+        Y: =693
         ZIndex: =9
-
-    Button5 As button:
-        Align: =Align.Left
-        BorderThickness: =5
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(54, 176, 75, 1)
-        Height: =88
-        OnSelect: =Navigate('Crear tienda',ScreenTransition.Fade)
-        Size: =24
-        Text: ="CREATE STORE"
-        Width: =269
-        X: =175
-        Y: =815
-        ZIndex: =10
 
     Image18_2 As image:
         Height: =232
         Image: =user
         Width: =276
-        X: =172
-        Y: =176
+        X: =204
+        Y: =159
         ZIndex: =11
 
     Image7_2 As image:
@@ -111,4 +88,23 @@ Configuracion As screen:
         X: =278
         Y: =16
         ZIndex: =13
+
+    Icon7_1 As icon.ArrowLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =74
+        Icon: =Icon.ArrowLeft
+        Width: =89
+        X: =12
+        Y: =19
+        ZIndex: =14
+
+    Button5 As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =79
+        Size: =24
+        Text: ="Save"
+        Width: =236
+        X: =369
+        Y: =859
+        ZIndex: =15
 

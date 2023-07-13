@@ -8,7 +8,7 @@ REGISTRARSE As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =30
-        Text: ="Access"
+        Text: ="Check in"
         Width: =560
         X: =40
         Y: =236
@@ -75,7 +75,7 @@ REGISTRARSE As screen:
         Height: =80
         OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
-        Text: ="DONE"
+        Text: ="NEXT"
         Width: =300
         X: =180
         Y: =922
@@ -97,12 +97,15 @@ REGISTRARSE As screen:
         Y: =74
         ZIndex: =9
 
-    Arrow1 As arrow.backArrow:
-        Fill: =RGBA(54, 176, 75, 1)
-        Height: =73
+    Icon6 As icon.ArrowLeft:
+        BorderColor: =RGBA(47, 158, 9, 1)
+        Color: =RGBA(5, 158, 30, 1)
+        Height: =63
+        HoverBorderColor: =
+        Icon: =Icon.ArrowLeft
         OnSelect: =Navigate(inicio,ScreenTransition.Fade)
-        Width: =60
-        X: =14
-        Y: =16
+        Width: =74
+        X: =12
+        Y: =44
         ZIndex: =10
 

@@ -11,41 +11,23 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =8
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =160
-        Width: =187
-        X: =35
-        Y: =94
+        Height: =180
+        Width: =200
+        X: =12
+        Y: =110
         ZIndex: =3
-
-    Image9_1 As image:
-        Height: =298
-        Image: =USUARIOO
-        Width: =188
-        X: =34
-        Y: =24
-        ZIndex: =4
 
     TextInput9_4 As text:
         Align: =Align.Center
         BorderThickness: =0
         Default: ="Emilia Vegetables"
         Font: =Font.'Lato Black'
-        Height: =82
-        Size: =35
-        Width: =398
-        X: =242
-        Y: =172
+        Height: =78
+        Size: =30
+        Width: =355
+        X: =232
+        Y: =186
         ZIndex: =5
-
-    Arrow3_1 As arrow.backArrow:
-        BorderColor: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =70
-        OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
-        Width: =66
-        X: =35
-        Y: =24
-        ZIndex: =6
 
     TextInput9_5 As text:
         Align: =Align.Center
@@ -56,7 +38,8 @@
         Height: =82
         Size: =30
         Width: =375
-        Y: =340
+        X: =12
+        Y: =349
         ZIndex: =7
 
     Icon1 As icon.Add:
@@ -85,7 +68,7 @@
         Size: =30
         Text: ="AGROTEC"
         Width: =292
-        X: =259
+        X: =295
         Y: =20
         ZIndex: =10
 
@@ -94,6 +77,24 @@
         Image: ='ddddd-removebg-preview (1)'
         ImagePosition: =ImagePosition.Fill
         Width: =239
-        X: =126
+        X: =152
         ZIndex: =11
+
+    Icon7_3 As icon.ArrowLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =74
+        Icon: =Icon.ArrowLeft
+        Width: =89
+        X: =12
+        Y: =19
+        ZIndex: =12
+
+    Image19 As image:
+        Height: =152
+        Image: ='vegetable-logo-emblem-vintage-design-creative-idea-design-inspiration-free-vector'
+        ImagePosition: =ImagePosition.Fill
+        Width: =182
+        X: =21
+        Y: =124
+        ZIndex: =13
 

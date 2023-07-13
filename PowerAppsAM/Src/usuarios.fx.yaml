@@ -11,19 +11,20 @@ usuarios As screen:
 
     Icon4 As icon.Search:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =89
+        Height: =62
         Icon: =Icon.Search
-        Width: =90
-        X: =530
+        Width: =67
+        X: =559
         Y: =20
         ZIndex: =6
 
     Icon5 As icon.Settings:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =89
+        Height: =62
         Icon: =Icon.Settings
         OnSelect: =Navigate(Configuracion,ScreenTransition.Fade)
-        Width: =107
+        Width: =67
+        X: =26
         Y: =20
         ZIndex: =7
 
@@ -31,87 +32,62 @@ usuarios As screen:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =156
-        Width: =187
-        X: =389
-        Y: =317
+        Height: =179
+        Width: =222
+        X: =384
+        Y: =294
         ZIndex: =9
 
     Rectangle2_2 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =156
-        Width: =187
-        X: =58
-        Y: =660
+        Height: =179
+        Width: =222
+        X: =50
+        Y: =637
         ZIndex: =10
 
     Rectangle2_3 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =156
-        Width: =187
+        Height: =179
+        Width: =222
         X: =384
-        Y: =660
+        Y: =637
         ZIndex: =11
 
     Rectangle2_4 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =5
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =156
-        Width: =187
-        X: =67
-        Y: =322
+        Height: =179
+        Width: =222
+        X: =45
+        Y: =294
         ZIndex: =12
 
-    Image9 As image:
-        Height: =238
-        Image: =USUARIOO
-        OnSelect: =Navigate(Productos,ScreenTransition.Fade)
-        Width: =164
-        X: =395
-        Y: =281
-        ZIndex: =13
-
-    Image10 As image:
-        Height: =166
-        Image: ='descarga (1)'
-        Width: =116
-        X: =93
-        Y: =655
-        ZIndex: =14
-
-    Image12 As image:
-        Height: =133
-        Image: ='User-yellow-icon'
-        Width: =210
-        X: =372
-        Y: =672
-        ZIndex: =16
-
     TextInput9 As text:
-        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
         BorderThickness: =0
-        Default: ="Panamer"
+        Default: ="Tropical de Alimentos S.A"
+        Fill: =RGBA(0, 0, 0, 0)
         Font: =Font.'Lato Black'
-        Height: =72
-        Size: =25
-        Width: =196
-        X: =58
-        Y: =491
+        Height: =122
+        Size: =19
+        Width: =322
+        Y: =458
         ZIndex: =17
 
     TextInput9_1 As text:
         Align: =Align.Center
         BorderThickness: =0
-        Default: ="Roger Peets"
+        Default: ="AgroTienda"
         Font: =Font.'Lato Black'
         Height: =72
         OnSelect: =Navigate(Productos,ScreenTransition.Fade)
-        Size: =25
+        Size: =19
         Width: =196
         X: =384
         Y: =483
@@ -120,10 +96,10 @@ usuarios As screen:
     TextInput9_2 As text:
         Align: =Align.Center
         BorderThickness: =0
-        Default: ="Luis Store"
+        Default: ="Panam Frut S.A"
         Font: =Font.'Lato Black'
         Height: =72
-        Size: =25
+        Size: =19
         Width: =196
         X: =54
         Y: =833
@@ -132,41 +108,65 @@ usuarios As screen:
     TextInput9_3 As text:
         Align: =Align.Center
         BorderThickness: =0
-        Default: ="Eco Store "
+        Default: ="Nancy Fresh Fruits"
         Font: =Font.'Lato Black'
         Height: =72
-        Size: =25
-        Width: =196
-        X: =372
+        Size: =19
+        Width: =242
+        X: =364
         Y: =833
         ZIndex: =20
-
-    Image2 As image:
-        Height: =116
-        Image: ='user-blue_25325'
-        Width: =214
-        X: =45
-        Y: =342
-        ZIndex: =21
 
     Label2 As label:
         Align: =Align.Center
         Color: =RGBA(54, 176, 75, 1)
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
-        Height: =90
+        Height: =57
         Size: =30
         Text: ="AGROTEC"
-        Width: =292
-        X: =259
-        Y: =20
+        Width: =260
+        X: =272
+        Y: =36
         ZIndex: =22
 
     Image7 As image:
-        Height: =185
+        Height: =174
         Image: ='ddddd-removebg-preview (1)'
         ImagePosition: =ImagePosition.Fill
-        Width: =263
-        X: =96
+        Width: =197
+        X: =145
         ZIndex: =23
+
+    Image1 As image:
+        Height: =243
+        Image: =logo_icon_square
+        Width: =225
+        X: =43
+        Y: =262
+        ZIndex: =24
+
+    Image2 As image:
+        Height: =149
+        Image: =images
+        Width: =175
+        X: =75
+        Y: =652
+        ZIndex: =25
+
+    Image9 As image:
+        Height: =154
+        Image: ='images (1)'
+        Width: =184
+        X: =403
+        Y: =649
+        ZIndex: =26
+
+    Image10 As image:
+        Height: =163
+        Image: ='images (2)'
+        Width: =189
+        X: =403
+        Y: =302
+        ZIndex: =27
 

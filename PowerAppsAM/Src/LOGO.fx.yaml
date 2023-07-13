@@ -1,5 +1,5 @@
 LOGO As screen:
-    BackgroundImage: =descarga
+    BackgroundImage: ='descarga (1)'
     Fill: =RGBA(152, 208, 70, 1)
     ImagePosition: =ImagePosition.Fill
 

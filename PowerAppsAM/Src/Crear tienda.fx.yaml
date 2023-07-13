@@ -11,7 +11,8 @@
         Height: =243
         Image: =user
         Width: =256
-        Y: =129
+        X: =12
+        Y: =149
         ZIndex: =3
 
     TextInput12 As text:
@@ -75,20 +76,11 @@
         Height: =70
         OnSelect: =Navigate('Tienda del usuario',ScreenTransition.Fade)
         Size: =24
-        Text: ="DONE "
+        Text: ="NEXT"
         Width: =280
-        X: =156
-        Y: =970
+        X: =180
+        Y: =960
         ZIndex: =9
-
-    Arrow4 As arrow.backArrow:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =89
-        OnSelect: =Navigate(Configuracion,ScreenTransition.Fade)
-        Width: =80
-        X: =26
-        Y: =30
-        ZIndex: =11
 
     Label18 As label:
         Align: =Align.Center
@@ -101,4 +93,22 @@
         X: =80
         Y: =49
         ZIndex: =12
+
+    Icon7_2 As icon.ArrowLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =74
+        Icon: =Icon.ArrowLeft
+        Width: =89
+        X: =12
+        Y: =19
+        ZIndex: =13
+
+    Icon3_1 As icon.Camera:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =69
+        Icon: =Icon.Camera
+        Width: =77
+        X: =191
+        Y: =298
+        ZIndex: =14
 

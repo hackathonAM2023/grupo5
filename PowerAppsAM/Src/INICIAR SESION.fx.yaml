@@ -1,12 +1,12 @@
 "'INICIAR SESION' As screen":
-    Fill: =RGBA(20, 199, 50, 1)
+    Fill: =RGBA(35, 171, 17, 1)
 
     Label7 As label:
         Align: =Align.Center
         Font: =Font.'Lato Black'
         Height: =70
         Size: =30
-        Text: ="LOG IN "
+        Text: ="Login"
         Width: =560
         X: =40
         Y: =276
@@ -30,15 +30,6 @@
         X: =214
         Y: =92
         ZIndex: =3
-
-    Arrow2 As arrow.backArrow:
-        Fill: =RGBA(255, 255, 0, 1)
-        Height: =78
-        OnSelect: =Navigate(inicio,ScreenTransition.Fade)
-        Width: =64
-        X: =16
-        Y: =14
-        ZIndex: =4
 
     TextInput6_1 As text:
         BorderColor: =RGBA(255, 255, 0, 1)
@@ -70,9 +61,19 @@
         Height: =80
         OnSelect: =Navigate(usuarios,ScreenTransition.Fade)
         Size: =24
-        Text: ="DONE "
+        Text: ="NEXT"
         Width: =300
         X: =170
         Y: =768
         ZIndex: =7
+
+    Icon2 As icon.ArrowLeft:
+        BorderColor: =RGBA(255, 255, 0, 1)
+        Color: =RGBA(255, 255, 0, 1)
+        Height: =66
+        Icon: =Icon.ArrowLeft
+        Width: =61
+        X: =16
+        Y: =37
+        ZIndex: =8
 
